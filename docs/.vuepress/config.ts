@@ -4,7 +4,7 @@ import {plumeTheme} from 'vuepress-theme-plume'
 
 
 export default defineUserConfig({
-    base: '/',
+    base: '/docs/',
     lang: 'zh-CN',
     title: 'DT',
     description: 'Java',
