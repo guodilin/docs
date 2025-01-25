@@ -8,7 +8,7 @@ export const java = defineNoteConfig({
         {
             text: 'Java语言基础',
             icon: 'ph:code-bold',
-            prefix: '第一章',
+            prefix: '1.基础入门',
             collapsed: false,
             items: [
                 '1.Java简介',
@@ -35,7 +35,7 @@ export const java = defineNoteConfig({
         {
             text: 'Java语言进阶',
             icon: 'ph:code-bold',
-            prefix: '第二章',
+            prefix: '2.面向对象',
             collapsed: false,
             items: [
                 '1.Java对象',
@@ -45,6 +45,18 @@ export const java = defineNoteConfig({
                 '5.Java重写',
                 '6.Java抽象类',
                 '7.Java接口',
+            ],
+        },
+        {
+            text: 'JavaAPI',
+            icon: 'ph:code-bold',
+            prefix: '3.API',
+            collapsed: false,
+            items: [
+                '1.Math',
+                '2.System',
+                '3.Runtime',
+                '4.Object',
             ],
         },
     ]
