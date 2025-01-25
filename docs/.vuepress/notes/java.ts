@@ -1,4 +1,4 @@
-import { defineNoteConfig } from 'vuepress-theme-plume'
+import {defineNoteConfig} from 'vuepress-theme-plume'
 
 export const java = defineNoteConfig({
     // 链接 区分大小写
@@ -29,7 +29,7 @@ export const java = defineNoteConfig({
                 '16.Java数组',
                 '17.Java集合',
                 '18.JavaMap集合',
-                '19.Java字符串',
+                '19.Java字符串'
             ],
         },
         {
@@ -44,7 +44,7 @@ export const java = defineNoteConfig({
                 '4.Java多态',
                 '5.Java重写',
                 '6.Java抽象类',
-                '7.Java接口',
+                '7.Java接口'
             ],
         },
         {
@@ -56,8 +56,17 @@ export const java = defineNoteConfig({
                 '1.Math',
                 '2.System',
                 '3.Runtime',
-                '4.Object',
+                '4.Object'
             ],
         },
+        {
+            text: 'JavaUI',
+            icon: 'ph:code-bold',
+            prefix: 'UI',
+            collapsed: false,
+            items: [
+                'Java事件'
+            ],
+        }
     ]
 })
